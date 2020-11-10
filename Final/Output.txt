@@ -1,0 +1,41 @@
+PS D:\Study\Placement\Incubyte\Final> javac -cp "D:\Study\Placement\Incubyte\Final\junit-4.3.jar", StringCalc.java                     PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+1,2
+"1,2" == 3
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+2.2,4.4
+"2.2,4.4" == 6.6
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+1\n2,3
+"1\n2,3" == 6
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+1,2,5,\n3
+Number expected but '
+' found at position -1.
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+2,3,4.2
+"2,3,4.2" == 9.2
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+//;\n1;2
+"1,2" == 3
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+//|\n1|2
+"1,2" == 3
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+//@@\n1@@2@@5
+"1,2,5" == 8
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+//sep\n2sep3
+"2,3" == 5
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+-1,2
+Negative not allowed: -1
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+2,-4,-5
+Negative not allowed: -4,-5
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+1,2,1000
+"1,2,1000" == 3
+PS D:\Study\Placement\Incubyte\Final> java Check                                                                                       Enter test case :
+//@@\n1@@2@@2900
+"1,2,2900" == 3
+PS D:\Study\Placement\Incubyte\Final>  
